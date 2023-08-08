@@ -1,0 +1,49 @@
+body {
+  border: 0;
+  margin: 0;
+  background: antiquewhite;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+    border: 2px solid black;
+}
+
+.center-border {
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 360px;
+}
+
+.display {
+    background-color: aliceblue;
+}
+
+.display-content {
+    background: aliceblue;
+    margin: 0;
+    padding: 25px 5px;
+    font-size: 40px;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+    width: 90px;
+    height: 40px;
+    font-size: 24px;
+}
