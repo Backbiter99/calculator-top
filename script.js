@@ -105,9 +105,5 @@ clear.addEventListener("click", () => {
   displayNumber = 0;
 
   clearDisplay();
-
-  const placeHolder = document.createElement("p");
-  placeHolder.textContent = "Dummy Text";
-  placeHolder.classList.add("display-content");
-  display.appendChild(placeHolder);
+  updateDisplay(0);
 });
